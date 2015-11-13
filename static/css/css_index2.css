@@ -16,11 +16,13 @@
 }
 
 .filter-section {
+}
+
+.filter-section > .panel {
 	height: 40em;
-	background-color: blue;
 }
 
 .main {
 	height: 40em;
-	background-color: yellow;
+	background-color: lightblue;
 }
