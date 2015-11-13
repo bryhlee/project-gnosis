@@ -1,20 +1,74 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link type="text/css" rel= "stylesheet" href="../css/foundation.min.css"></link>
+        <link type="text/css" rel="stylesheet" href="../css/foundation.min.css">
+        <link type="text/css" rel="stylesheet" href="../css/css_index2.css">
     </head>
 
     <body style="height: 150%">
-        <div>
+        
+        <!--Nav bar 1-->
+        <div class="contain-to-grid topbar">
             <nav data-topbar class="top-bar" role="navigation">
                 <ul class="title-area">
                     <li class="name">
-                      <h1><a href="#">Gnosis</a></h1>
+                      <h1><a href="#">Project Gnosis</a></h1>
                     </li>
                 </ul>
+                <section class="top-bar-section">
+                    <ul class="right">
+                        <li><a href="#">About</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Help</a></li>
+                        <li class="divider"></li>
+                        <li class="has-dropdown">
+                            <a href="#">Right Button Dropdown</a>
+                            <ul class="dropdown">
+                                <li><a href="#">First link in dropdown</a></li>
+                                <li class="active"><a href="#">Active link in dropdown</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
             </nav>
         </div>
         
+        <!-- Nav bar 2-->
+        <div class="sticky contain-to-grid topbar2">
+            <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+                <div class="row">
+					<div class="large-10 large-centered small-centered column">
+						<ul class="">
+							<li class="has-form">
+								<div class="row collapse">
+									<div class="large-8 small-9 columns">
+										<input type="text" placeholder="Search a library">
+									</div>
+									<div class="large-4 small-3 columns">
+										<ul class="button-group">
+											<li><a href="#" class="button">Search</a></li>
+											<li><a href="#" class="alert button show-for-medium-up">Advanced</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+                    
+                </div>
+            </nav>
+        </div>
+        
+		<div class="row"}>
+			<div class="large-3 column">
+
+			</div>
+
+			<div class="large-9 column">
+
+			</div>
+		</div>
+		
         <!-- Scripts -->
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="../js/foundation.min.js"></script>
