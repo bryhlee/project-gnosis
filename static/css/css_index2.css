@@ -11,12 +11,16 @@
     background-color: grey;
 }
 
+.content-container {
+	padding-top: 10px;
+}
+
 .filter-section {
-	height: 160%;
+	height: 40em;
 	background-color: blue;
 }
 
 .main {
-	height: 160%;
+	height: 40em;
 	background-color: yellow;
 }
