@@ -1,7 +1,22 @@
+.topbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .topbar2 {
     background-color: grey;
 }
 
 .topbar2 > .top-bar {
     background-color: grey;
+}
+
+.filter-section {
+	height: 160%;
+	background-color: blue;
+}
+
+.main {
+	height: 160%;
+	background-color: yellow;
 }
