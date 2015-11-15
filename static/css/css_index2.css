@@ -1,18 +1,25 @@
 .topbar {
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: blue;
+}
+
+.topbar > .top-bar {
+    background-color: inherit;
 }
 
 .topbar2 {
     background-color: grey;
+    opacity: .85;
 }
 
 .topbar2 > .top-bar {
-    background-color: grey;
+    background-color: inherit;
 }
 
 .content-container {
 	padding-top: 10px;
+    width: 100% !important;
 }
 
 .filter-section {
@@ -22,7 +29,7 @@
 	height: 40em;
 }
 
-.main {
+.main-section {
 	height: 40em;
 	background-color: lightblue;
 }
