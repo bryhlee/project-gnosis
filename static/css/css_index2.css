@@ -1,11 +1,6 @@
 .topbar {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: blue;
-}
-
-.topbar > .top-bar {
-    background-color: inherit;
 }
 
 .topbar2 {
