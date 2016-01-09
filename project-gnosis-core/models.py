@@ -12,7 +12,9 @@ class ConflictException(endpoints.ServiceException):
     http_status = httplib.CONFLICT
 
 '''create an Entity model'''
-class Entity(ndb.Model):
+class Api(ndb.Model):
 	'''initial'''
 	name=ndb.StringProperty(required=True)
 	description=ndb.TextProperty()
+	download=ndb.TextProperty(required=True)
+	documentation=ndb.TextProperty()

@@ -1,6 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<head>
+<meta charset="UTF-8">
+<title>GCore</title>
+
+<script src="static/app.js"></script>
+
+<!--  Load the Google APIs Javascript client library -->
+<!--  Then call the init function, which is defined in hello.js -->
+<script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+</head>
+
+<body>
+<H1>GCORE (C.R.U.D)</H1>
+  <br>
+  <p>------------------------------------------------</p>
+  <h1>Add an Entity</h1>
+  <p>------------------------------------------------</p>
+  <br>
+  <p>Name:<input value="name" id="entity_id" autofocus>
+  <br>
+  <p>Description:</p>
+  <textarea rows="4" cols="50" wrap="hard" id="entity_description">Description</textarea>
+  <br>
+  <p>Download Link:<input value="download-link" id="entity_dl"></p>
+  <p>Documentation:<input value="documentation-link" id="entity_doc"></p>
+   <p><input id="submit_e" type="button" value="Please Wait..." onclick="will_be_set_after_endpoints_apis_loaded"><p/>
+   <br>
+   <p>------------------------------------------------</p>
+   <h1>Entity List</h1>
+   <p>------------------------------------------------</p>
+   <br>
+        <table border="2" width="100%" id="e_list">
+          <tr>
+            <td><b>Name</b></td>
+            <td><b>Description</b></td>
+            <td><b>Download Link</b></td>
+            <td><b>Documentation</b></td>
+            <td><b>Delete</b></td>
+          </tr>
+        </table>
+        <br>
+        <p><input id="retrieve_e" type="button" value="please wait" onclick="will_be_set_after_endpoints_apis_loaded"></p>
+        <p><input id="delete_e" type="button" value="please wait" onclick="will_be_set_after_endpoints_apis_loaded"><p/>
+   <p>------------------------------------------------</p>
+   <h1>Theoretical Display</h1>
+   <p>------------------------------------------------</p>
+    <h1 style="text-align:center" id="e_name"></h1>
+    <p style="text-align:center" id="e_description"></p>
 
 
+
+    <p>------------------------------------------------</p>
+
+</body>
 
 </html>
